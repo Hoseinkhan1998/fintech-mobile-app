@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'sofia';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #fff;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* first page */
+
+#outer-circle {
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #23303B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0% 13%;
+
+}
+
+#inner-circle {
+  width: 763px;
+  height: 763px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 763px;
+  align-items: center;
+  background-color: rgba(79, 89, 98, 0.10);
+}
+
+#inner-circle2 {
+  width: 465px;
+  height: 465px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 465px;
+  align-items: center;
+  background-color: rgba(79, 89, 98, 0.10);
+}
+
+#inner-circle3 {
+  width: 277.044px;
+  height: 277.044px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 277.044px;
+  align-items: center;
+  background-color: rgba(79, 89, 98, 0.10);
+}
+
+/* second page */
+/* button & progres bar */
+.ma {
+  position: absolute;
+  width: 428px;
+  height: 100px;
+  display: flex;
+  bottom: 100px;
+
+}
+
+/* skip button */
+
+.b {
+  position: absolute;
+  margin-left: 300px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.s-button {
+  width: 101px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #4F5962;
+  box-sizing: border-box;
+  color: #C8CBCE;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.5%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.s-button:hover {
+  background: #4f5962b9;
+  cursor: pointer;
+}
+
+/* progres bar */
+
+.ax {
+  position: absolute;
+  width: 94.5px;
+  height: 0px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+/* texts */
+.money {
+  width: 359px;
+  position: absolute;
+  bottom: 170px;
+}
+
+.money-p {
+  color: #8E949A;
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.37px;
+  width: fit-content;
+}
+
+.mobile {
+  width: 300px;
+  position: absolute;
+  bottom: 240px;
+  margin-right: 50px;
+
+}
+
+.mobile-p {
+  color: #FFF;
+  font-family: Sofia Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.5%;
+  /* 47.775px */
+}
+
+.mobile-bank {
+  color: #456EFE;
+  font-family: Sofia Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.5%;
+}
+
+/* bank carts */
+
+.cart-1 {
+  width: 326.988px;
+  height: 205.318px;
+  transform: rotate(10deg);
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 450px;
+  right: 750px;
+  transform: skew(1deg, 27deg);
+  z-index: 3;
+
+
+}
+
+.img-cart1 {
+  background: cover no-repeat;
+  width: 326.988px;
+  height: 205.318px;
+
+}
+
+.cart-2 {
+  width: 310.988px;
+  height: 205.318px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 600px;
+  right: 890px;
+  transform: skew(1deg, 328deg);
+  z-index: 2;
+}
+
+.img-cart2 {
+  background: cover no-repeat;
+  width: 310.988px;
+  height: 205.318px;
+  backdrop-filter: blur(77.62567138671875px);
+}
+
+.cart-3 {
+  width: 272.763px;
+  height: 171.27px;
+  transform: rotate(10deg);
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 755px;
+  left: 740px;
+  transform: skew(1deg, 27deg);
+  z-index: 1;
+
+
+}
+
+.img-cart3 {
+  background: cover no-repeat;
+  width: 272.763px;
+  height: 171.27px;
+  backdrop-filter: blur(77.62567138671875px);
+
+}
+
+/* Login */
+
+/* bottom text */
+.sign {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E949A;
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.5%;
+  /* 26.37px */
+
+}
+
+
+.signup {
+  color: #FFF;
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.5%;
+}
+
+/* finger print */
+
+.finger {
+  height: 45px;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.forget {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E949A;
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-style: normal;
+  /* font-weight: 400; */
+  /* line-height: 146.5%;  */
+  /* 26.37px */
+}
+
+.f2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+
+}
+
+.an {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #FFF;
+}
+
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: auto;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.bank-card {
+  display: flex;
+  height: 228px;
+  border-radius: 10px;
+  margin-top: 20px;
+  /* padding: 0% 10%; */
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+
+.quick-btn {
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 128px;
+  min-width: 140px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  box-shadow: 1px 5px 40px 8px rgba(110, 117, 136, 0.07);
+
+}
+
+.service-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  min-width: 76px;
+
+  background-color: #f0f0f080;
+  cursor: pointer;
+  margin-right: 50%;
+}
+
+.usd:after {
+  content: 'USD';
+  font-size: 9px;
+  vertical-align: bottom;
+}
+
+.character {
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #A4A9AE26;
+  height: 58.96px;
+  width: 59px;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.plinut {
+  width: 100%;
+  height: 60px;
+}
+
+.plinut::placeholder {
+  color: #8E949A;
+  font-size: 18px;
+  opacity: 1;
+  font-weight: 900;
+}
+
+.cash:after {
+  content: '.76';
+  font-size: 25px;
+  vertical-align: bottom;
+  margin-bottom: -10%;
+}
+
+
+
